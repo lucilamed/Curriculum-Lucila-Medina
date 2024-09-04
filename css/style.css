@@ -1,0 +1,116 @@
+body{
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+
+.tamanio {
+    height: 320mm;
+    width: 277mm;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.arriba{
+    font-size: 20px;
+    padding: 0px;
+    padding-left: 50px;
+    font-style: bold;
+}
+
+.naranja{
+    background-color: #A5300F;
+}
+
+.izquierda{
+    background-color: white;
+    padding-left: 1.3cm;
+    padding-right: 1cm;
+    padding-top: 0.4cm;
+    text-align: justify;
+}
+
+.letra-naranja{
+    color: #D55816;
+}
+
+hr{
+    border: 3px solid #D55816;
+    border-radius: 3%;
+}
+
+.derecha{
+    background-color: #D55816;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    padding-top: 3cm;
+    text-align: justify;
+}
+
+
+.negrita{
+    font-weight: bold;
+}
+
+.juntar-texto{
+    display: inline;
+}
+
+li.juntar-texto::before {
+    content: "•";
+    color: #D55816;
+    margin-right: 20px;
+    margin-left: -30px;
+    font-weight: bold;
+}
+.rojo{
+    background-color: red;
+}
+
+.imagen{
+    position: relative;
+    top: 130px;
+    left: -12px;
+}
+
+
+.imagen img{
+    width: 390px;
+    height: 340px;
+}
+
+.espacio-parrafos{
+    margin: -4px 0;
+}
+
+.contenedor{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor img{
+    width: 500px;
+    height: 100%;
+    margin-right: 0px;
+}
+
+.perfil{
+    position: relative;
+}
+
+.imagen-flotante {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.imagen-flotante img{
+    position: absolute;
+    top: 90px;
+    left: 651px;
+    width: 225px;
+    height: 220px;
+}
